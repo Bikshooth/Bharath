@@ -1,0 +1,130 @@
+<!-- <abbr>world</abbr>
+<acronym>special</acronym>
+<address>world</address>
+<applet>hello</applet>
+<article>manage</article>
+<aside>ringer</aside>
+<audio>music</audio>
+<b>ranger</b>
+<basefont>warrior</basefont>
+<bdi>faster</bdi>
+<bdo>power</bdo>
+<big>mistske</big>
+<blockquote>marker</blockquote>
+<body>risk</body>
+<button>carry</button>
+<center>richer</center>
+<canvas>forever</canvas>
+<caption>human</caption>
+<cdata>animal</cdata>
+<cite>http://cascaade.com</cite>
+<colgroup>master</colgroup>
+<code>livik</code>
+<content>vikendi</content>
+<p><big>&#x1f644;</big></p>
+<p>&#52999;</p>
+<p>&#5388933;</p>
+<p>&#x16765;</p> -->
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>Print Button Example</title>
+  <style>
+    .print-button {
+      /*display: none;*/
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+
+    /*@media print {
+      .print-button {
+        display: none !important;
+      }
+    }*/
+  </style>
+</head>
+<body>
+  <h1>Welcome to My Web Page</h1>
+  <p>This is the content of the specific page.</p>
+
+  <button class="print-button" onclick="window.print()">Print</button>
+
+  <script>
+    window.onload = function() {
+      var printButton = document.querySelector('.print-button');
+      printButton.style.display = 'block';
+    };
+  </script>
+</body>
+</html>
+ -->
+
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<title>Print</title>
+ 	<style type="text/css">
+ 		.pb {
+      /*display: none;*/
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+
+ 	</style>
+ </head>
+ <body>
+ 	<div id="section1">
+ 		<h2>Section1</h2>
+ 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+ 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+ 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+ 	</div>
+ 	<div>
+ 		<h1>Section2</h1>
+ 		<p id="section2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+ 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+ 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+ 	</div>
+ 	<div id="section3">
+ 		<h1>Section3</h1>
+ 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+ 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+ 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+ 	</div>
+ 	<button class="pb" onclick="printContent('')">Print</button>
+ 	<script type="text/javascript">
+ 		function printContent(page) {
+ 			let mainpage = document.body.innerHTML;
+ 			let print = document.getElementById('section1').innerHTML;
+ 			document.body.innerHTML = print;
+ 			window.print();
+ 			document.body.innerHTML = mainpage;
+ 		}
+ 	</script>
+ </body>
+ </html>
